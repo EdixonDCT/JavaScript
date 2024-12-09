@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+.pixelify-sans-pixel{
+    font-family: "Pixelify Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Pixelify Sans", serif;
+}
+:root{
+    --claro:#ffffff;
+    --fondo:#5C94FC;
+    --bloque:#BC6A3B;
+}
+body{
+    background-color: var(--fondo);
+    background-image: url(../img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.titulo{
+    text-align: center;
+    color: var(--claro);
+    font-size: 36px;
+
+}
+.titulo__titular{
+    -webkit-text-stroke: 3px var(--bloque);
+}
+.lista{
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    gap: 20px;
+}
+.lista__item{
+    list-style: none;
+    background-image: url(../img/block.png);
+    background-size: cover;  
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.lista__enlace{
+    color: var(--claro);
+    font-weight: bold;
+    font-size: 16   px;
+}
+.lista__item:hover{
+    transform: translate(0,-20px);
+    background-image: url(../img/power.png);
+    transition: 0.5s;
+}
+
+.lista__item:hover .lista__enlace{
+    color: var(--bloque);
+    background-color: #ffd00073;
+}
