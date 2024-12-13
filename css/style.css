@@ -48,8 +48,8 @@ body{
     list-style: none;
     background-image: url(../img/block.png);
     background-size: cover;  
-    width: 100px;
-    height: 100px;
+    width: 128px;
+    height: 128px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,7 +59,8 @@ body{
 .lista__enlace{
     color: var(--claro);
     font-weight: bold;
-    font-size: 16   px;
+    font-size: 25px;
+    text-align: center;
 }
 .lista__item:hover{
     transform: translate(0,-20px);
