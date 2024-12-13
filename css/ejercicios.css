@@ -15,7 +15,9 @@ body{
 }
 .contenido__titulo{
     font-size: 64px;
+    width: 100vw;
 }
 .contenido__texto{
     font-size: 30px;
+    width: 100vw;
 } 
